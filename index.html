@@ -5,6 +5,193 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+
+}
+header{
+    position: sticky;
+   
+    top: 0;
+}
+header .one{
+    background-color: rgb(242, 73, 239);
+    background-image: url(./images/1.png);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+    width: 100%;
+  
+}
+.container{
+    width: 95%;
+     overflow: hidden;
+     margin-left: 2%;
+    margin-right: 3%;
+   
+}
+.primary-button{
+      border: 1px solid rgb(84, 223, 238);
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: 900;
+      font-size: 1.2rem;
+}
+.secondary-button{
+    background-color: rgb(84, 223, 238);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.flex{
+    display: flex;
+}
+.content1{
+    align-items: center;
+    font-size: 2rem;
+}
+.content1 img{
+    width: 6rem;
+}
+.two{
+    justify-content: space-between;
+}
+ul{
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.main1,h3,p,button{
+    padding: 10px;
+}
+.main1 h3{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.main1 p{
+    font-size: 1.2rem;
+}
+.main1 button{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    border: none;
+}
+.four{
+    text-align: center;
+    margin-top: 5rem;
+}
+.five{
+    justify-content: space-evenly;
+}
+.five img{
+    width: 7rem;
+    height: 3rem;
+}
+.six{
+    margin-top: 10rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 0;
+}
+.six button{
+    margin: 0;
+    background-color: white;
+}
+.seven{
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+}
+.all{
+    width: 393px;
+}
+.all img,h3,p,button{
+    margin: 1rem 0;
+}
+.eight{
+    margin-top: 9rem;
+    justify-content: space-between;
+}
+.eight2{
+    margin-top: 9rem;
+    justify-content: space-between;
+}
+.eight-1 img{
+   width:500px;
+}
+.eight-2{
+    width: 500px;
+}
+.img{
+   align-items: center;
+   margin-top: 2rem;
+}
+.nic{
+   flex-direction: column;
+   align-items: center;
+}
+.nic h4{
+    margin-top: 2rem;
+}
+
+        @media screen and (max-width:991px) {
+    .content2{
+        display:none;
+    }
+   .two{
+     justify-content: center;
+   }
+    .main2 img{
+        width: 300px;
+    }
+    .five{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+@media  screen and (max-width: 751px) {
+    .eight{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .eight2{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+         gap: 20px;
+    }
+}
+@media screen  and (max-width:425px){
+    .three{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .eight-1 img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:320px) {
+     .content1 h3{
+        font-size: 31px;
+     }
+}
+
+    </style>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/styll2.css">
 </head>
